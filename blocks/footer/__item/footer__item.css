@@ -1,0 +1,9 @@
+.footer__item{
+    padding-right: 18px;
+}
+
+@media screen and (max-width: 740px) {
+    .footer__item{
+      padding-right: 18px;
+      padding-bottom: 10%;
+    }}

@@ -1,0 +1,12 @@
+
+.cover__background{
+  margin: auto;
+  max-width: 1184px;
+  height: min-content;
+  width: 100%;
+  background-image: url(../../../images/background.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  padding-top: 20.69%;
+}

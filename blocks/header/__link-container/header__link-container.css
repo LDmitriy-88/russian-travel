@@ -1,0 +1,9 @@
+.header__link-container{
+  display: flex;
+  justify-content: space-between;
+  width: 77px;
+  height: 28px;
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+  }

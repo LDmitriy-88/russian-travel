@@ -1,0 +1,20 @@
+@import url(./__container/footer__container.css);
+@import url(./__item/footer__item.css);
+@import url(./__link/footer__link.css);
+@import url(./__author/footer__author.css);
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    height: min-content;
+    margin: 7.18% auto 0 auto;
+    width: 95.32%;
+    max-width: 1184px;
+    padding-bottom: 24px;
+}
+
+@media screen and (max-width: 740px) {
+    .footer{
+    margin-top: 64px;
+    flex-direction: column;
+      }}

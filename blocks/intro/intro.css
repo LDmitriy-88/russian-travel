@@ -1,0 +1,12 @@
+@import url(./__container/intro__container.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+@import url(./__list-item/intro__list-item.css);
+
+.intro{
+    margin: 0 auto 0 auto;
+    width: 95.32%;
+    max-width: 984px;
+    height: min-content;
+ }
