@@ -8,7 +8,7 @@
   width: 100%;
   max-width: 1184px;
   height: min-content;
-  background-image: url(../../images/background.jpg);
+  background-image: url(./../images/background.jpg);
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
