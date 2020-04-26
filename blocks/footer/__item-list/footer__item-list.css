@@ -1,0 +1,15 @@
+.footer__item-list{
+    width: min-content;
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+    padding: 0;
+    align-self: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 740px) {
+    .footer__item-list{
+      flex-direction: column;
+    }}

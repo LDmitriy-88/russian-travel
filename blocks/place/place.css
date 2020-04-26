@@ -1,4 +1,6 @@
 @import url(./__title/place__title.css);
+@import url(./__link-container/place__link-container.css);
+@import url(./__link-item/place__link-item.css);
 @import url(./__link/place__link.css);
 @import url(./__image/place__image.css);
 @import url(./__paragraph/place__paragraph.css);
@@ -14,6 +16,13 @@
     grid-column-gap: 4.07%;
     padding: 0;
   }
+
+  @media screen and (max-width: 780px) {
+    .place{
+      grid-template-columns: repeat(2, 1fr);
+    }}
+  
+
 
   @media screen and (max-width: 740px) {
     .place{

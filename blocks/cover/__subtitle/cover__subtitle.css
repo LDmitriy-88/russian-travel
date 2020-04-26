@@ -2,10 +2,8 @@
     margin: 32px auto 0 auto;
     padding-bottom: 19.04%;
     max-width: 360px;
-    height: 66px;
     font-size: 18px;
     line-height: 22px;
-    /* or 122% */
     text-align: center;
     color: #FFFFFF;
     z-index: 1;
@@ -16,9 +14,9 @@
   @media screen and (max-width: 740px) {
     .cover__subtitle{
       font-size: 14px;
-    line-height: 16px;
-    max-width: 90%;
-    max-height: min-content;
-    text-align: center;
-    margin-top: 5%;
+      line-height: 16px;
+      max-width: 90%;
+      max-height: min-content;
+      text-align: center;
+      margin-top: 3%;
     }}

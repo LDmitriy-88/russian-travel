@@ -11,8 +11,8 @@
     <div class="header__container">
       <div class="header__logo"></div>
       <div class="header__link-container">
-        <a href="" lang="ru" class="header__lang-link header__lang-link_active">Ru</a>
-        <a href="" lang="en" class="header__lang-link">En</a>
+        <a href="" class="header__lang-link header__lang-link_active">Ru</a>
+        <a href="" class="header__lang-link">En</a>
       </div>
     </div>
   </header>
@@ -32,16 +32,15 @@
       например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и 
       проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li class="intro__list-item">Часовых поясов 11</li>
-        <li class="intro__list-item">Объектов природного наследия ЮНЕСКО 12</li>
-        <li class="intro__list-item">Объектов культурного наследия ЮНЕСКО 16</li>
-        <li class="intro__list-item">Природных заповедников 105</li>
-        <li class="intro__list-item">Аэропортов 241</li>
+        <li class="intro__list-item"><span class="intro__list-item_span-accent">Часовых поясов</span> 11</li>
+        <li class="intro__list-item"><span class="intro__list-item_span-accent">Объектов природного наследия ЮНЕСКО</span> 12</li>
+        <li class="intro__list-item"><span class="intro__list-item_span-accent">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+        <li class="intro__list-item"><span class="intro__list-item_span-accent">Природных заповедников</span> 105</li>
+        <li class="intro__list-item"><span class="intro__list-item_span-accent">Аэропортов</span> 241</li>
     </ul>
     </div>
   </section>
-  <div class="photo-grid">
-    <div class="photo-grid__container">
+  <section class="photo-grid">
       <img src="./images/photo-grid-train.jpg" class="photo-grid__item" alt="Вид из окна поезда">
       <img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__item" alt="Горы">
       <img src="./images/photo-grid-tuman.jpg" class="photo-grid__item" alt="Туман">
@@ -54,12 +53,14 @@
       <img src="./images/photo-grid-kamchatka-2.jpg" class="photo-grid__item" alt="Ещё Камчатка">
       <img src="./images/photo-grid-baikal-2.jpg" class="photo-grid__item" alt="Ещё Байкал">
       <img src="./images/photo-grid-ergaki.jpg" class="photo-grid__item" alt="Сопки">
-    </div>
-  </div>
+  </section>
   <section class="places">
     <div class="place">
       <h2 class="place__title">Куршская коса</h2>
-      <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+      <div class="place__link-container">
+        <p class="place__link-item">URL</p>
+        <a href="http://park-kosa.ru" target="_blank" class="place__link project__link">park-kosa.ru</a>
+      </div>
       <img src="./images/place-kosa.jpg" class="place__image" alt="Куршская коса">
       <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого 
       рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
@@ -69,7 +70,10 @@
     </div>
     <div class="place">
       <h2 class="place__title">Кольский</h2>
-      <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
+      <div class="place__link-container">
+        <p class="place__link-item">URL</p>
+        <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" class="place__link project__link">National Geographic</a>
+      </div>
       <img src="./images/place-kolsky.jpg" class="place__image" alt="Кольский">
       <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг — 
           тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
@@ -80,7 +84,10 @@
     </div>
     <div class="place">
       <h2 class="place__title">Алтай</h2>
-      <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
+      <div class="place__link-container">
+        <p class="place__link-item">URL</p>
+        <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank" class="place__link project__link">Facebook</a>
+      </div>
       <img src="./images/place-altai.jpg" class="place__image" alt="Алтай">
       <p class="place__paragraph">Алтай — одно из красивейших мест в России. 
           В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и озёра. А если вы откроете в 
@@ -91,7 +98,10 @@
     </div>
     <div class="place">
       <h2 class="place__title">Зимний Байкал</h2>
-      <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+      <div class="place__link-container">
+        <p class="place__link-item">URL</p>
+        <a href="https://vk.com/baikalmile" target="_blank" class="place__link project__link">https://vk.com/baikalmile</a>
+      </div>
       <img src="./images/place-winter-baikal.jpg" class="place__image" alt="Зимний Байкал">
       <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро 
           в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в России.</p>
@@ -102,7 +112,10 @@
     </div>
     <div class="place">
       <h2 class="place__title">Карелия</h2>
-      <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
+      <div class="place__link-container">
+        <p class="place__link-item">URL</p>
+        <a href="http://vodlozero.ru" target="_blank" class="place__link project__link">http://vodlozero.ru/</a>
+      </div>
       <img src="./images/place-karelia.jpg" class="place__image" alt="Карелия">
       <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская 
           лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских 
@@ -112,22 +125,24 @@
           в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
     </div>
   </section>
-  <div class="cover">
-    <div class="cover__background">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__overlay"></a> 
-      <p class="cover__title">До Байкала</p>
-      <p class="cover__title">«на собаках»</p>
+  <section class="cover">
+    <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
+      <div  class="cover__overlay"></div> 
+      <p class="cover__title">До Байкала «на собаках»</p>
       <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>       
-    </div>
-  </div>
+    </a>
+    </section>
   <footer class="footer">
-    <ul class="footer__container">
-      <li class="footer__item"><a href="https://yandex.ru/maps" class="footer__link">Карта</a></li>
-      <li class="footer__item"><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
-      <li class="footer__item"><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
-      <li class="footer__item"><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
-      <li class="footer__item"><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
-    </ul>
+    <nav class="footer__container">
+      <ul class="footer__item-list">
+        <li class="footer__item"><a href="https://yandex.ru/maps" target="_blank" class="footer__link project__link">Карта</a></li>
+        <li class="footer__item"><a href="https://yandex.ru/pogoda" target="_blank" class="footer__link project__link">Погода</a></li>
+        <li class="footer__item"><a href="https://rasp.yandex.ru" target="_blank" class="footer__link project__link">Расписание</a></li>
+        <li class="footer__item"><a href="https://calendar.yandex.ru" target="_blank" class="footer__link project__link">Календарь</a></li>
+        <li class="footer__item"><a href="https://travel.yandex.ru" target="_blank" class="footer__link project__link">Путешествия</a></li>
+      </ul>
+    </nav>
     <p class="footer__author">&#169; 2020.D_Levanovskiy</p>
   </footer>
 </body>
+</html>

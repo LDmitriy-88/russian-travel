@@ -1,0 +1,12 @@
+.place__link-container{
+    align-self: end;
+    max-width: 456px;
+    height: min-content;
+    width: max-content;
+    padding-bottom: 4.87%;
+  }
+
+  @media screen and (max-width: 740px) {
+    .place__link-container{
+      display: none;
+    }}

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: 77px;
-  height: 28px;
+  height: min-content;
   align-self: flex-end;
   margin: 0;
   padding: 0;

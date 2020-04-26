@@ -1,9 +1,27 @@
-@import url(./__background/cover__background.css);
 @import url(./__overlay/cover__overlay.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
+@import url(./__link/cover__link.css);
 
 .cover{
-    margin: 7.187% auto 0 auto;
-    width: 100%;
+  margin: 7.187% auto 0 auto;
+  width: 100%;
+  max-width: 1184px;
+  height: min-content;
+  background-image: url(../../../images/background.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  padding-top: 20.69%;
   }
+
+@media screen and (max-width: 740px) {
+  .cover{
+    padding-top: 10%;
+  }}
+
+  @media screen and (max-width: 400px) {
+    .cover{
+      background-size: contain;
+      padding-top: 10%;
+    }}

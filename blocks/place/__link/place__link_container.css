@@ -1,0 +1,15 @@
+.place__link-container{
+    align-self: end;
+    max-width: 456px;
+    height: min-content;
+    width: max-content;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-bottom: 4.87%;
+  }
+
+  @media screen and (max-width: 740px) {
+    .place__link{
+      display: none;
+    }}
