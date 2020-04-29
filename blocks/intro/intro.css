@@ -3,11 +3,11 @@
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
 @import url(./__list-item/intro__list-item.css);
-@import url(./__list-item/_span-accent/intro__list-item_span-accent.css);
+@import url(./__span-accent/intro__span-accent.css);
 
 .intro{
     margin: 0 auto 0 auto;
-    width: 95.32%;
+    width: 92.5%;
     max-width: 984px;
     height: min-content;
  }

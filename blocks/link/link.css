@@ -1,0 +1,8 @@
+.link{
+    max-width: 100%;
+    transition: opacity 1s ease;
+    }
+    
+.link:hover {
+    opacity: 0.8;
+}@import url(./__link/project__link.css);
